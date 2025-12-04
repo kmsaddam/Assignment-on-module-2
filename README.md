@@ -8,11 +8,10 @@ git --version
 git init
 
 # Track Files Command
-git add hello.txt
 git add *
 
 # Commit Command
-git commit -m "Test Git Files"
+git commit -m "Second Assignment Started"
 
 # Check Branch Name
 git branch
@@ -24,7 +23,7 @@ git branch -M "main"
 git branch -M "main"
 
 # Connect with git repo 
-git remote add origin https://github.com/kmsaddam/git-assignment.git
+git remote add origin https://github.com/kmsaddam/Assignment-on-module-2.git
 
 # Git Push Command 
 git push origin main
