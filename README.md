@@ -19,23 +19,23 @@ git branch
 # Modify Branch Name
 git branch -M "main"
 
-# Modify Branch Name
-git branch -M "main"
-
 # Connect with git repo 
 git remote add origin https://github.com/kmsaddam/Assignment-on-module-2.git
 
 # Git Push Command 
 git push origin main
 
-# Frequently Push Command  
-git push -u origin main
+# Create New Branch  
+git branch feature-update
 
-# Pull Command  
-git pull origin main
+# Switch Branch  
+git checkout feature-update
 
-# Frequently Pull Command  
-git pull -u origin main
+# Commit Command
+git commit -m "Added Content To Feature Update Branch"
+
+# Git Push Command 
+git push origin feature-update
 
 
 
